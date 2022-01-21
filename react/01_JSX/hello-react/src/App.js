@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+//import { Fragment } from 'react';
 import './App.css';
 
 function App() {
+
+
+  const name = '리액트';
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className="react">
+    {name}
+    {/*주석은 이렇게 작성합니다.*/}
+    //하지만 이런 주석이나
+    /*이런 주석은 페이지에 그대로 나타나게 됩니다.*/
+  </div>
   );
 }
 
